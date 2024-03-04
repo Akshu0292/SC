@@ -1,0 +1,111 @@
+Practical 1
+A. Text delimited CSV to HORUS format
+	Country_Code.csv
+B. XML to HORUS Format 
+	VKHCG/05-DS/9999-Data/Country_Code.xml
+C. JSON to HORUS Format 
+	VKHCG/05-DS/9999-Data/Country_Code.json
+D. MySql Database to HORUS Format  Code: 
+	/VKHCG/05-DS/9999-Data/utility.db
+E. Picture (JPEG) to HORUS Format
+	VKHCG/05-DS/9999-Data/Angus.jpg
+F. Video to HORUS Format 
+	Movie to Frames 
+	VKHCG/05-DS/9999-Data/dog.mp4
+	Frames to Horus
+	VKHCG/05-DS/9999-Data/temp' 
+G. Audio to HORUS Format Code: 
+	VKHCG/05-DS/9999-Data/2ch-sound.wav'
+	VKHCG/05-DS/9999-Data/4ch-sound.wav' 
+	VKHCG/05-DS/9999-Data/6ch-sound.wav' 
+	VKHCG/05-DS/9999-Data/8ch-sound.wav' 
+
+Practical 3: 
+A. Fixers Utilities
+B. Data Binning or Bucketing 
+	VKHCG/05-DS/4000-UL/0200-DU/DU-Histogram.png
+C. Averaging of Data 
+	VKHCG\05-DS\4000-UL\0200-DU\DU-Mean.py 
+	'/01-Vermeulen/00-RawData/'IP_DATA_CORE.csv' 
+D. Outlier Detection 
+	VKHCG\05-DS\4000-UL\0200-DU\DU-Outliers.py 
+	/01-Vermeulen/00-RawData/'IP_DATA_CORE.csv' 
+E. Logging 
+	Write a Python / R program for basic logging in data science
+	
+
+	
+Practical 4 
+A. Perform the following data processing using R. 
+	 "C:/VKHCG/01-Vermeulen/00-RawData/IP_DATA_ALL.csv
+B. Program to retrieve different attributes of data
+	01-Vermeulen/00-RawData/IP_DATA_ALL.csv' 
+C. Data Pattern 
+	VKHCG/01-Vermeulen/00-RawData/IP_DATA_ALL.csv'
+D. Loading IP_DATA_ALL
+	/01-Vermeulen/00-RawData/IP_DATA_ALL.csv' 
+				IP_DATA_C_VKHCG 
+				 IP_DATA_CORE 
+				COUNTRY-CODES 
+				 DE_Billboard_Locations 
+				GB_Postcode_Full 
+				GB_Postcode_Warehouse
+				GB_Postcode_Shops 
+				 Euro_ExchangeRates 
+				Profit_And_Loss
+Vermeulen PLC 
+	C:\VKHCG\01-Vermeulen\01-Retrieve\
+	/01-Vermeulen/00-RawData/IP_DATA_CORE.csv' 
+Building a Diagram for the Scheduling of Jobs 
+	/01-Vermeulen/00-RawData/'IP_DATA_CORE.csv'
+
+Krennwallner AG 
+	Picking Content for Billboards
+	'C:/VKHCG/'02-Krennwallner'/ '/00-RawData/'DE_Billboard_Locations.csv' 
+Understanding Your Online Visitor Data 
+	'C:/VKHCG'/'01-Vermeulen''/00-RawData/'IP_DATA_ALL.csv' 
+XML processing
+	'01-Vermeulen' /00-RawData 'IP_DATA_ALL.csv' 
+
+Hillman Ltd 
+	EXW—Ex Works (Named Place of Delivery)
+	'03-Hillman'//01-Retrieve/01-EDS/02-Python/'Incoterm_2010.csv
+	FCA—Free Carrier (Named Place of Delivery) 
+	'03-Hillman'/'/01-Retrieve/01-EDS/02-Python'/'Incoterm_2010.csv
+
+Adopt New Shipping Containers 	
+	'03-Hillman'//01-Retrieve/01-EDS/02-Python'/'Retrieve_Container.csv
+Create a Delivery Route 
+	='03-Hillman'/01-Retrieve/01-EDS/02-Python'/'GB_Postcode_Warehouse.csv' 
+Global Post Codes 
+	"C:/VKHCG/03-Hillman/00-RawData/All_Countries.txt
+
+Clark Ltd 
+Person Base Data 
+	04-Clark' /00-RawData/'Data_female-names','Data_male-names','Data_last-names'
+Connecting to other Data Sources
+	SQLite 
+	VKHCG/01-Vermeulen/01-Retrieve/01-EDS/02-Python/Retrieve_IP_DATA.csv' 
+MySQL
+	VKHCG/01-Vermeulen/00-RawData/Country_Currency.xlsx'
+
+Practical 5: 
+Errors
+i.  Drop the Columns Where All Elements Are Missing Values  
+	'01-Vermeulen'/00-RawData 'Good-or-Bad.csv' 
+	'Good-or-Bad-01.csv' 
+ii.  Drop the Columns Where Any of the Elements Is Missing Value
+	01-Vermeulen' 0'/00-RawData'Good-or-Bad.csv' 
+iii.  Keep Only the Rows That Contain a Maximum of Two Missing Values 
+	'01-Vermeulen' 00-RawData/'Good-or-Bad.csv' 
+
+AssessNetwork-Routing-Company.py
+	'01-Retrieve/01-EDS/01-R/Retrieve_Country_Code.csv' 
+Assess-Network-Routing-Customer.py 
+	/01-Vermeulen/02-Assess/01-EDS/02-Python/Assess-NetworkRoutingCustomer.csv
+Assess-Network-Routing-Node.py
+	'01-Vermeulen''01Retrieve/01-EDS/02-Python/Retrieve_IP_DATA.csv
+C. Write a Python / R program to build directed acyclic graph
+	01-Vermeulen' '01Retrieve/01-EDS/02-Python/Retrieve_Router_Location.csv' 
+Customer Location DAG 
+	'01-Vermeulen' 01Retrieve/01-EDS/02-Python/Retrieve_Router_Location.csv' 
