@@ -1,0 +1,124 @@
+5A-i__5A-ii__5A-iii
+========================
+import sys
+import os
+import pandas as pd
+
+sFileName="C:/VKHCG/Good-or-Bad.txt"
+print('Loading :',sFileName)
+RawData=pd.read_csv(sFileName,header=0)
+
+print('## Raw Data Values') 
+print(RawData)
+==========================================================
+5B-to create the network routing diagram
+==========================================================
+import sys
+import os
+import pandas as pd
+##########################################
+pd.options.mode.chained_assignment = None
+
+sFileName=Base + '/' + Company + '/' + Retrieve_Country_Code.csv
+print('################################')
+print('Loading :',sFileName)
+print('################################')
+CountryData=pd.read_csv(sFileName,header=0,low_memory=False, encoding="latin-1")
+print('Loaded Country:',CountryData.columns.values)
+===================================================================
+5C-to build directed acyclic graph (All)
+============================================================
+import networkx as nx
+import matplotlib.pyplot as plt
+import sys
+import os
+import pandas as pd
+
+sFileName="01-Retrieve/01-EDS/02-Python/Retrieve_Router_Location.txt"
+print('Loading :', sFileName)
+print('################################')
+CompanyData = pd.read_csv(sFileName, header=0, low_memory=False, encoding="latin1")
+print('Loaded Company:', CompanyData.columns.values)
+print('################################')
+==================================================================
+5D-to pick the content for Bill Boards
+=================================================
+import sys
+import os
+import sqlite3 as sq
+import pandas as pd
+
+sDatabaseName=sDataBaseDir + '/krennwallner.db'
+conn = sq.connect(sDatabaseName)
+
+### Import Billboard Data
+sInputFileName1=  Retrieve_DE_Billboard_Locations.txt
+sInputFileName2=  Retrieve_Online_Visitor.txt
+
+sFileName=Base + '/' + Company + '/' + sInputFileName1
+print('Loading :',sFileName)
+BillboardRawData=pd.read_csv(sFileName,header=0,low_memory=False, encoding="latin1")
+=================================================================================
+9A-Report Superstep.
+1. Vermeulen PLC
+=========================================
+import sys
+import os
+import pandas as pd
+import networkx as nx
+import matplotlib.pyplot as plt
+
+sFileName="/VKHCG/Assess-Network-Routing-Company.csv'
+print('################################')
+print('Loading :',sFileName)
+print('################################')
+
+CustomerDataRaw=pd.read_csv(sFileName,header=0,low_memory=False, encoding="latin1")
+CustomerData=CustomerDataRaw.head(100)
+print('Loaded Country:',CustomerData.columns.values)
+=================================================================
+Report Superstep.
+2. Krennwallner AG
+==============================================
+import sys
+import os
+import pandas as pd
+from folium.plugins import FastMarkerCluster, HeatMap
+from folium import Marker, Map
+import webbrowser
+
+sFileName=Base+'/02-Krennwallner/Retrieve_DE_Billboard_Locations.csv'
+df = pd.read_csv(sFileName,header=0,low_memory=False, encoding="latin-1")
+df.fillna(value=0, inplace=True)
+print(df.shape)
+=====================================================================
+10-power bi
+odata website-
+
+http://services.odata.org/V3/Northwind/Northwind.svc/
+==================================================================================
+4A-data processing using R 
+=====================================
+> library(readr)
+>IP_DATA_ALL<-read_csv("C:/IP_DATA_ALL.txt")
+>view(IP_DATA_ALL)
+>spec(IP_DATA_ALL)
+
+>library(tibble)
+>set_tidy_names(IP_DATA_ALL,syntactic=TRUE,quiet=FALSE)
+>IP_DATA_ALL_FIX=set_tidy_names(IP_DATA_ALL,syntactic=TRUE,quiet=FALSE)
+>sapply(IP_DATA_ALL_FIX,typeof)
+
+>library(data.table)
+>hist_country_fix=data.table(Country=unique(IP_DATA_ALL_FIX[is.na(IP_DATA_ALL_FIX['Country'])
+>setorder(hist_country_fix,'Country')
+>hist_country_with_id=rowid_to_column(hist_country_fix,var="RawIDCountry")
+>view(hist_country_fix)
+>IP_DATA_COUNTRY_FREQ=data.table(with(IP_DATA_ALL_FIX,table(Country)))
+>view(IP_DATA_COUNTRY_FREQ)
+
+>sapply(IP_DATA_ALL_FIX[,'Latitude']min,na.rm=TRUE)
+			country ]min
+			Latitude]max
+			country]max
+			Latitude] mean, median , range ,
